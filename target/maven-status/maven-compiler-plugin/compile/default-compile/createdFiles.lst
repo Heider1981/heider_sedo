@@ -1,0 +1,8 @@
+servlets\Svingresoempleados.class
+servlets\Svindex.class
+conexion\conexionbd.class
+com\mycompany\proyectosedo\resources\JakartaEE10Resource.class
+com\mycompany\proyectosedo\JakartaRestConfiguration.class
+servlets\Svingresoclientes.class
+servlets\Svregistrousuarios.class
+servlets\Svingresar_actualizar_productos.class
