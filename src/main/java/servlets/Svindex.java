@@ -38,9 +38,7 @@ public class Svindex extends HttpServlet {
                 case "Clientes":
                     response.sendRedirect("02ingreso_clientes.jsp");
                     break;
-                default:
-                    response.sendRedirect("01index.jsp");
-                    break;
+
             }
         }
     }

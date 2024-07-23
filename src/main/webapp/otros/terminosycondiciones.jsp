@@ -15,6 +15,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <title>Terminos y Condiciones</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <style>
+            body .container{
+                background-image: url(img/fondo_error.jpg);
+                display: inline-block;
+                margin: 0 350px;
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                background-attachment: fixed;
+            }
+        </style>
     </head>
     <body>
     <div class="container">
@@ -56,7 +67,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         </p>
         <h2>Derechos del Titular de los Datos</h2>
         <p>
-            Usted tiene derecho a acceder, rectificar, cancelar u oponerse al tratamiento de sus datos personales en cualquier momento. Para ejercer estos derechos, puede contactarnos a través de [correo electrónico de contacto].
+            Usted tiene derecho a acceder, rectificar, cancelar u oponerse al tratamiento de sus datos personales en cualquier momento. Para ejercer estos derechos, puede contactarnos a través de [asadosangelica@hotmail.com].
         </p>
         <h2>Contacto</h2>
         <p>

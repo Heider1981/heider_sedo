@@ -120,6 +120,8 @@
                 text-align: center;
 
             }
+            
+            
         </style>
     </head>
     <body>
@@ -143,11 +145,11 @@
             <input class="controls" type="text" name="telefono" id="telefono" placeholder="Ingrese su Numero de Telefono">
             <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Email">
             <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su Contraseña">
-            <p>Estoy de acuerdo con <a href="otros/terminosycondiciones.html">Terminos y Condiciones</a></p>
+            <p>Estoy de acuerdo con <a href="otros/terminosycondiciones.jsp">Terminos y Condiciones</a></p>
             <button class="btn-a" name="role" value="Administrador">Registrar</button>
             <button class="btn-a" name="role" value="Administrador">Actualizar</button>
             <button class="btn-a" name="role" value="Administrador">Eliminar</button>
-            <p><a href="index.html">¿Ya tengo Cuenta?</a></p>
+            <p><a href="01index.jsp">¿Ya tengo Cuenta?</a></p>
         </form>
 
         <div id="piepagina">

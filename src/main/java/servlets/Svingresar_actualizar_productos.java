@@ -41,7 +41,7 @@ public class Svingresar_actualizar_productos extends HttpServlet {
         System.out.println("precio del producto: " + precioProducto);
         
         // Forward to a confirmation page or handle the registration logic
-        request.getRequestDispatcher("confirmation.jsp").forward(request, response);
+        request.getRequestDispatcher("confirmacion.jsp").forward(request, response);
         
         if (con != null) {
                 try {

@@ -20,8 +20,8 @@ import jakarta.servlet.http.HttpServletResponse;
         
       public class Svingresoclientes extends HttpServlet {
 
-    private static final String USUARIO_VALIDO = "milton";
-    private static final String CLAVE_VALIDA = "123478";
+    private static final String USUARIO_VALIDO = "16461219";
+    private static final String CLAVE_VALIDA = "1234";
 
     @Override
 
@@ -43,7 +43,7 @@ import jakarta.servlet.http.HttpServletResponse;
         } else {
             request.setAttribute("error", "usuario o clave incorrectos");
             request.setAttribute ("errorExist", true);
-            request.getRequestDispatcher("02ingreso_clientes.jsp").forward(request, response);
+            request.getRequestDispatcher("error.jsp").forward(request, response);
         }
         if (con != null) {
                 try {
