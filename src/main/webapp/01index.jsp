@@ -11,7 +11,10 @@
    <TItle>INICIO ASADOS ANGELICA DATABASE</TItle>   
    <meta charset="utf-8">   
    
-   <style>
+   <style> 
+      /*Se definen varios estilos para los elementos HTML en la página, como el 
+      cuerpo (`body`), encabezados (`h1`, `h2`), botones (`btn-a`), entre otros*/ 
+       
        *{
     margin: 0px;
     padding: 0px;
@@ -96,26 +99,37 @@ footer {
 
    </style>
  </head>
-<body>
+<body> <%--Contenido del cuerpo (`<body>`)--%>
        
     <h1>ASADOS ANGELICA - SEDO</h1>
+    <%--Encabezados (`<h1>`, `<h2>`)**: Definen títulos grandes para la página y secciones específicas.--%>
     <center>
+        <%--SVG (`<svg>`)**: Muestra un icono de usuario, que probablemente se utiliza para indicar funcionalidades 
+        relacionadas con usuarios.--%>
         <svg xmlns="http://www.w3.org/2001/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-user">
             <path stroke-linecap="round" stroke-linejoin="round" d="M18 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0ZM3 19.235v-.11a6.375 6.375 0 0 1 12.75 0v.109A12.318 12.318 0 0 1 9.374 21c-2.331 0-4.512-.645-6.374-1.766Z" />
             
         </svg>
-                  
+         <%--Div (`<div id="general">`)**: Agrupa contenido general de la página, con un fondo de imagen 
+         específico.--%>         
         <div id="general">
-            <a class="regis" href="04registro_usuarios.jsp">Registrar Usuario</a>
+            <a class="regis" href="04registro_usuarios.jsp">Registrar Usuario</a><%--Enlace (`<a class="regis">`)**: Enlace para registrar usuarios, apuntando a otra página JSP (`04registro_usuarios.jsp`).--%>
         
             <h2>INGRESO DE USUARIOS</h2>
+            <%--Encabezados (`<h1>`, `<h2>`)**: Definen títulos grandes para la página y secciones específicas.--%>
             <section>
+                <%--Formulario (`<form>`)**: Contiene botones para seleccionar el rol de usuario(Administrador, Empleado, 
+                Clientes). El formulario se envía a sí mismo (`action="index"`), usando el método GET.--%>
                 <form action="index" method="get">
                     <button class="btn-a" name="role" value="Administrador">Administrador</button>
                     <button class="btn-a" name="role" value="Empleado">Empleado</button>                                                              
                     <button class="btn-a" name="role" value="Clientes">Clientes</button>   
                 </form>
+                <%--Div (`<div id="general">`)**: Agrupa contenido general de la página, con un 
+                fondo de imagen específico.--%>
                 <div id="piepagina">
+                    <%--Pie de página (`<footer>`):**- Muestra información adicional, en este caso, la versión 
+                    del software (`SEDO-CRA V1.0. 2023`).--%>
                     <footer>
                         <p><b>SEDO-CRA V1.0. 2023</b></p>
                     </footer>        
