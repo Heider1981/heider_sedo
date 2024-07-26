@@ -30,7 +30,7 @@
 
 
     h1 {
-        margin-top: 20px;
+        
         font-size: 50px;
         color: rgb(187, 255, 0);
         text-shadow: 2px 2px 0 rgb(17, 16, 16), 2px -2px 0 rgb(7, 7, 7), -1px -1px 0 rgb(0, 0, 0);
@@ -40,7 +40,7 @@
     img {
         margin-right: 800px;
         max-width: 50%;
-        height: 200px;
+        height: 160px;
         border-radius: 10px;
     }
 
@@ -73,16 +73,25 @@
     }
 
     .btn-secondary {
-        margin: 10px;
+        margin: 5px;
         color: #000;
         background-color: #ccc;
     }
+    
+    p{
+    margin-top: 5px;
+    font-size: 40px;
+    font-family: fantasy;
+    color: rgb(21, 255, 0);
+    text-shadow: 2px 2px 0 rgb(17, 16, 16), 2px -2px 0 rgb(7, 7, 7), -1px -1px 0 rgb(0, 0, 0);
+}
 </style>
 
 </head>
 
 <body>
     <div class="container mt-3">
+        <p>Bienvenidos, Ingreso Exitoso!!!</p>
         <h1>EMPLEADOS</h1>
         <div class="row">
             <div class="col">

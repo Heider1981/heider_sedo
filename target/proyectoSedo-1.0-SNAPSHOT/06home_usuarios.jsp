@@ -61,8 +61,8 @@ h1{
 }
 
 p{
-    margin-top: 30px;
-    font-size: 40px;
+    margin-top: 10px;
+    font-size: 35px;
     font-family: fantasy;
     color: rgb(21, 255, 0);
     text-shadow: 2px 2px 0 rgb(17, 16, 16), 2px -2px 0 rgb(7, 7, 7), -1px -1px 0 rgb(0, 0, 0);
@@ -70,7 +70,9 @@ p{
 
 
     </style>
+    
 </head>
+
 <body>
     <h1>HOME</h1>   
     
@@ -89,7 +91,8 @@ p{
         <button class="btn btn-success" name="role" value="Sugerencias">Sugerencias</button>
     </form> 
     <div>
-        <p>VIERNES A DOMINGO, Y FESTIVOS</p>
+        <p>Bienvenidos, Ingreso Exitoso!!!</p>
+        <p>SERVICIO DE VIERNES A DOMINGO, Y FESTIVOS</p>
         <p>18:00pm a 24:00pm</p>
     </div>
 </body>

@@ -15,6 +15,8 @@
         <meta charset="utf-8">
         
         <style>
+    /*CSS Estilo: Se utilizan estilos CSS para dar formato y diseño a los elementos de la página. Aquí se 
+    establecen propiedades como márgenes, tamaños de letra, colores de fondo, sombras y bordes redondeados.*/
             *{
     margin: 0px;
     padding: 0px;
@@ -116,23 +118,29 @@ div#piepagina {
     </head>
 
     <body>
-        <h1>ASADOS ANGELICA - SEDO</h1>    
+        <h1>ASADOS ANGELICA - SEDO</h1>
+        <!--<h1> muestra el nombre de la empresa con un efecto de sombra y color verde.-->  
         <div id="general">
             <h2>EMPLEADOS</h2>
+            <!--<h2> es un encabezado secundario para el formulario de empleados, con un color verde 
+            intenso y efectos de sombra.-->
             <div id="contenedor">            
                 <form action="iniciar" method="post">
+                    <!--Un formulario (<form>) que envía datos a un destino llamado "iniciar" usando el método POST.-->
                     <label for="usuario">Usuario:</label>
-                    <input type="text" id="usuario" name="usuario" placeholder="usuario" >
-
+                    <input type="text" id="usuario" name="usuario" placeholder="usuario">
+                    <!--Dos campos de entrada (<input>) para "Usuario" y "Clave", donde la clave se oculta como texto 
+                    oculto (tipo password).-->
                     <label for="clave">Clave:</label>
                     <input type="password" id="clave" name="clave" placeholder="Clave">
                     <br>
+                    <!--Un botón (<button>) con la clase .btn-a para enviar el formulario, etiquetado como "Ingresar".-->
                     <button class="btn-a" name="role" value="Clientes">Ingresar</button>
-                </form>
-                                      
+                </form>                                      
             </div>        
         </div>
-        <div id="piepagina">               
+        <div id="piepagina"><!--Un área inferior (<div id="piepagina">) que incluye un enlace para recuperar la 
+                            contraseña y un pequeño pie de página con información adicional.-->              
             <a href="">¿Has olvidado tu contraseña?</a>
             <footer>
                 <p><b>SEDO V1.0. 2022</b></p>

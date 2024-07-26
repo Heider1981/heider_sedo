@@ -13,6 +13,8 @@
         <title>Registrar Usuario</title>
 
         <style>
+    /*CSS Estilo: Se utilizan estilos CSS para dar formato y diseño a los elementos de la página. Aquí se 
+    establecen propiedades como márgenes, tamaños de letra, colores de fondo, sombras y bordes redondeados.*/
             *{
                 margin: 0;
                 padding: 0;
@@ -126,6 +128,7 @@
     </head>
     <body>
         <h1>ASADOS ANGELICA</h1>
+        <!--<h1> muestra el nombre de la empresa con un efecto de sombra y color verde.-->
         <form action="UserRegistration" method="post">
             <h4>REGISTRO / ACTUALIZACION</h4>
             <b>Tipo De Documento</b>

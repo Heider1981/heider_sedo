@@ -3,7 +3,6 @@
     Created on : 22/07/2024, 4:31:06 p. m.
     Author     : jedab
 --%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -18,8 +17,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
-
-
 body{
 
     display: inline-block;
@@ -29,13 +26,10 @@ body{
     background-size: 100% 100%;
     background-attachment: fixed;
 }
-
-
 h1{
    margin-top: 120px; 
    font-size: 250%;
 }
-
 .btn{
     font-size: 200%;
     background-color: rgb(190, 248, 97)
@@ -49,8 +43,7 @@ h1{
               <button type="submit"><a class="btn" type="" href="02ingreso_clientes.jsp">Regresar</a></button> 
         </form>
         <% String error = (String)request.getAttribute("error");
-        if (error != null){
-                
+        if (error != null){                
                 
         %>
         <p class=" error"><%=error%></p>
