@@ -36,13 +36,7 @@ h1{
     margin-top: 300px;
     text-shadow: 2px 2px 0 rgb(17, 16, 16), 2px -2px 0 rgb(7, 7, 7), -1px -1px 0 rgb(0, 0, 0);
 }
-.info{
-    margin: 5% 100%;
-    color: rgb(0, 0, 0);
-    font-size: 16px;
-    border-radius: 40px;    
-    text-shadow: 2px 2px 0 rgb(255, 255, 255), 2px -2px 0 rgb(255, 250, 250), -1px -1px 0 rgb(255, 255, 255);
-}
+
 
 .row img{
     margin-top: -40%;
@@ -60,6 +54,7 @@ h1{
     color: rgb(3, 121, 13);
 }
 
+
 p{
     margin-top: 10px;
     font-size: 35px;
@@ -67,15 +62,13 @@ p{
     color: rgb(21, 255, 0);
     text-shadow: 2px 2px 0 rgb(17, 16, 16), 2px -2px 0 rgb(7, 7, 7), -1px -1px 0 rgb(0, 0, 0);
 }
-
-
     </style>
-    
+    <p>Bienvenido, Ingreso Exitoso!!!</p>    
 </head>
 
 <body>
-    <h1>HOME</h1>   
-    
+    <h1>HOME</h1>
+        
     <div class="container mt-3">
         <div class="row">        
             <div class="col">                                 
@@ -90,11 +83,10 @@ p{
         <button class="btn btn-success" name="role" value="Carrito de Compras">Carrito de Compras</button> 
         <button class="btn btn-success" name="role" value="Sugerencias">Sugerencias</button>
     </form> 
-    <div>
-        <p>Bienvenidos, Ingreso Exitoso!!!</p>
+           
         <p>SERVICIO DE VIERNES A DOMINGO, Y FESTIVOS</p>
         <p>18:00pm a 24:00pm</p>
-    </div>
+    
 </body>
 </html>
 

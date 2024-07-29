@@ -36,7 +36,7 @@ servlet responderá a las peticiones que lleguen a esa URL específica.*/
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Connection con = conexionbd.getConnection();
         /*Obtiene una conexión a la base de datos utilizando una clase conexionbd.getConnection(), 
-        presumiblemente definida en otro lugar del código.*/
+        definida en otro lugar del código.*/
        
         String usuario = request.getParameter("usuario");
         String clave = request.getParameter("clave");

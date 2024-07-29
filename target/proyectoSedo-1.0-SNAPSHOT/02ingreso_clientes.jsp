@@ -124,7 +124,7 @@
 
     <body>
         <h1>ASADOS ANGELICA - SEDO</h1>  
-        <!--<h1> muestra el nombre de la empresa con un efecto de sombra y color verde.-->  
+        <!--<h1> Titulo muestra el nombre de la empresa con un efecto de sombra y color verde.-->  
         <div id="general">
             <h2>CLIENTES</h2>
             <!--<h2> es un encabezado secundario para el formulario de empleados, con un color verde 
