@@ -139,15 +139,11 @@ footer {
                 <option value="Arepas">Arepas</option>
                 <option value="Bebidas">Bebidas</option>
                 <option value="Otos">Otos</option>
-            </select>
-            
+            </select>            
             <input class="controls" type="text" name="idProducto" id="productos" placeholder="idProducto">
             <input class="controls" type="text" name="nombreProducto" id="nombres" placeholder="nombreProducto">
             <input class="controls" type="num" name="precioProducto" id="precio" placeholder="precioProducto">
         
-        
-
-            
             <button type="submit" name="action" value="registrar">Registrar</button>
             <button type="submit" name="action" value="actualizar">Actualizar</button>
             <button type="submit" name="action" value="eliminar">Eliminar</button>

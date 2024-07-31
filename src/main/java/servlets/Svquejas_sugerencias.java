@@ -21,6 +21,6 @@ public class Svquejas_sugerencias extends HttpServlet {
         // Por ejemplo, guardar los datos en una base de datos o enviar un correo electrónico
         
         response.setContentType("text/html;charset=UTF-8");
-        response.getWriter().write("Gracias por enviar tu queja o sugerencia");
+        response.getWriter().write("Gracias por enviar tus comentarios, tu opinion es muy importante para nosotros.");
     }
 }

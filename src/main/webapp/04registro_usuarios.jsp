@@ -140,7 +140,6 @@
                 <option value="Registro Civil">Registro Civil</option>
                 <option value="Pasaporte">Pasaporte</option>
             </select>
-
             <input class="controls" name="documento" id="documento" placeholder="Ingrese Numero de Documento">
             <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese sus Nombres">
             <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus Apellidos">
@@ -154,7 +153,6 @@
             <button class="btn-a" name="role" value="Administrador">Eliminar</button>
             <p><a href="01index.jsp">¿Ya tengo Cuenta?</a></p>
         </form>
-
         <div id="piepagina">
             <footer>
                 SEDO-CRA V1.0. 2024

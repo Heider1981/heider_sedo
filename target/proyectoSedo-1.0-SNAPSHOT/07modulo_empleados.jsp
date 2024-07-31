@@ -86,9 +86,7 @@
     text-shadow: 2px 2px 0 rgb(17, 16, 16), 2px -2px 0 rgb(7, 7, 7), -1px -1px 0 rgb(0, 0, 0);
 }
 </style>
-
 </head>
-
 <body>
     <div class="container mt-3">
         <p>Bienvenidos, Ingreso Exitoso!!!</p>
@@ -96,10 +94,8 @@
         <div class="row">
             <div class="col">
                 <img src="img/0002.jpg">
-            </div>
-            
+            </div>            
         </div>
-
         <form action="processForm" method="POST">
             <div class="contenedor">
                 <table>
@@ -141,19 +137,15 @@
                     </tbody>
                 </table>
             </div>
-        </form>
-        
+        </form>        
         <div class="btn">
             <button type="button" class="btn btn-secondary">Imprimir</button>
             <button type="button" class="btn btn-secondary">Cancelar</button>
             <button type="button" class="btn btn-secondary">Estado del pedido</button>
-            <button type="button" class="btn btn-secondary">Salir</button>
-            
-        </div>
-        
+            <button type="button" class="btn btn-secondary">Salir</button>            
+        </div>        
     </div>
 </body>
-
 </html>
 
 

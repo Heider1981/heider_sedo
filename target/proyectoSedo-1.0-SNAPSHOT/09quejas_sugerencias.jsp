@@ -64,7 +64,7 @@
     </head>
     <body>
         <div class="buzon">
-            <h1>BUSON DE QUEJAS Y SUGERENCIAS</h1>
+            <h1>BUSON DE QUEJAS Y SUGERENCIAS</br> ASADOS ANGELICA</h1>
             <form id="formulario" method="post" action="quejas_sugerencias">
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" name="nombre"><br><br>
