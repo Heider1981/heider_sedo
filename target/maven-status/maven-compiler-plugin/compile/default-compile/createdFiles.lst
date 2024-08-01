@@ -2,9 +2,9 @@ servlets\Svingresoempleados.class
 servlets\Svindex.class
 conexion\conexionbd.class
 servlets\Svquejas_sugerencias.class
+servlets\Svmodulo_empleados.class
 com\mycompany\proyectosedo\resources\JakartaEE10Resource.class
 com\mycompany\proyectosedo\JakartaRestConfiguration.class
 servlets\Svhome_usuarios.class
 servlets\Svingresoclientes.class
-servlets\Svregistrousuarios.class
 servlets\Svingresar_actualizar_productos.class

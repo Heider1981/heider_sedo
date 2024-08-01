@@ -126,7 +126,7 @@
         <h1>ASADOS ANGELICA - SEDO</h1>  
         <!--<h1> Titulo muestra el nombre de la empresa con un efecto de sombra y color verde.-->  
         <div id="general">
-            <h2>CLIENTES</h2>
+            <h2>INGRESO CLIENTES</h2>
             <!--<h2> es un encabezado secundario para el formulario de empleados, con un color verde 
             intenso y efectos de sombra.-->
             <div id="contenedor">            
@@ -148,7 +148,7 @@
         <div id="piepagina"> 
             <!--Un área inferior (<div id="piepagina">) que incluye un enlace para recuperar la 
             contraseña y un pequeño pie de página con información adicional.-->  
-            <a href="">¿Has olvidado tu contraseña?</a>
+            <a href="recuperar_contraseña.jsp">¿Has olvidado tu contraseña?</a>
             <footer>
                 <p><b>SEDO V1.0. 2022</b></p>
             </footer>
