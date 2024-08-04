@@ -9,6 +9,7 @@ import java.io.IOException;
 
 @WebServlet("/processForm")
 public class Svmodulo_empleados extends HttpServlet {
+    @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Obtener parámetros del formulario si es necesario
         String action = request.getParameter("action");

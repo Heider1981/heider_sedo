@@ -36,15 +36,26 @@ h1{
    font-size: 250%;
 }
 
-.btn{
-    font-size: 200%;
-    background-color: rgb(190, 248, 97)
-}
+.btn {
+                font-size: 200%;
+                background-color: blue;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                text-decoration: none;
+                display: inline-block;
+                margin-top: 20px;
+            }
         </style>
     </head>
     <body>
         <h1>Regitro Exitoso!!!</h1>
-        <button type="submit"><a class="btn" type="" href="05ingresar_actualizar_productos.jsp">Regresar</a></button>
+        <div class="footer">
+            <form action="01index.jsp" method="get" autocomplete="off" novalidate>
+                <button type="submit" class="btn">Regresar</button>
+            </form>
+        </div>
     </body>
 </html>
 
